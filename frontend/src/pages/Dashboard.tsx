@@ -15,7 +15,7 @@ export default function Dashboard() {
     <div>
       <h1>Dashboard</h1>
 
-      <p>Bem-vindo {user?.email}</p>
+      <p>Bem-vindo ao dashboard {user?.email}</p>
 
       <button onClick={handleLogout}>
         Sair
